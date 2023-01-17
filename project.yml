@@ -1,7 +1,7 @@
 packages:
   - name: ts
     environment:
-        DATABASE_URL: "${DATABASE_URL}"
+        DATABASE_URL: mysql://doadmin:AVNS_noUqwbsO8OF4Jgy62Rm@db-mysql-sgp1-48737-do-user-13334828-0.b.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED
     actions:
       - name: hello
         runtime: 'go:default'

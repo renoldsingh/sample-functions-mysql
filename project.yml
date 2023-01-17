@@ -1,7 +1,7 @@
 packages:
   - name: ts
     environment:
-        DATABASE_URL: "db-mysql-sgp1-37341-do-user-13334828-0.b.db.ondigitalocean.com"
+        DATABASE_URL: "${DATABASE_URL}"
     actions:
       - name: hello
         runtime: 'go:default'
